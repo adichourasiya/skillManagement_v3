@@ -18,27 +18,40 @@ Welcome to **Skill Management Solution (SMS)**, a smart and efficient way to man
   - Monitor skill progression over time.
   - Provide reading materials for skill development.
 
-## 🚀 Getting Started
 
-### Prerequisites
+## Installation
 
-Ensure you have the following installed:
+1. Clone the repository:
+    ```sh
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd skill-management-app
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-- Python 3.8+
-- Flask
-- SQLite3
+## Scripts
 
-### Setup Instructions
+- **Development**: `npm run dev`
+- **Build**: `npm run build`
+- **Lint**: `npm run lint`
+- **Preview**: `npm run preview`
 
-1. **Clone the repository**:
+## Configuration
+
+- **ESLint**: [eslint.config.js](eslint.config.js)
+- **Tailwind CSS**: [tailwind.config.js](tailwind.config.js)
+- **Vite**: [vite.config.ts](vite.config.ts)
 
 ## Usage
 
-1. Start the application:
-    ```bash
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+To start the development server, run:
+```sh
+npm run dev
 
 ## Contributing
 
